@@ -1,3 +1,8 @@
+![ChatApp  Demo](./readme-images/1.png "App Demo")
+![ChatApp  Demo](./readme-images/2.png "App Demo")
+![ChatApp  Demo](./readme-images/3.png "App Demo")
+
+
 <h1>Project Details</h1>
 
 Real-Time chat app using Next.js, NextAuth, MongoDB, Pusher, Tailwind CSS, React, and Cloudinary.
