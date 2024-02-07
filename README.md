@@ -11,45 +11,64 @@ Next.js:
 
 Next.js is a React framework that enables server-side rendering, automatic code splitting, and easy deployment.
 It simplifies the development of React applications by providing a structure and tools for building efficient and scalable web applications.
+</br>
+</br>
 NextAuth:
 
 NextAuth is an authentication library for Next.js applications.
 It supports various authentication providers such as Google, GitHub, and others.
 It simplifies the implementation of authentication flows and integrates seamlessly with Next.js applications.
+</br>
+</br>
 MongoDB:
 
 MongoDB is a NoSQL database that stores data in a flexible, JSON-like format.
 It is used to store user data, chat messages, and other relevant information in a scalable and easily accessible manner.
+</br>
+</br>
 Pusher:
 
 Pusher is a real-time communication service that enables real-time data updates.
 It can be used to implement real-time chat functionality by pushing messages instantly to connected clients.
+</br>
+</br>
 Tailwind CSS:
 
 Tailwind CSS is a utility-first CSS framework that makes it easy to design and style your components.
 It allows you to build a responsive and visually appealing user interface with minimal effort.
+</br>
+</br>
 React:
 
 React is a JavaScript library for building user interfaces.
 It is used to create the frontend of the chat application, managing the UI components and rendering updates in response to real-time events.
+</br>
+</br>
 Cloudinary:
 
 Cloudinary is a cloud-based service that provides image and video management.
 It can be used to store and manage user avatars or chat-related images in the cloud, making it easy to handle media assets in the application.
+</br>
 Architecture Overview:
 
 Authentication:
 
 Users authenticate using NextAuth with various providers.
 Upon successful authentication, user information is stored in MongoDB.
+</br>
+</br>
 Real-Time Chat:
 
 Chat messages are stored in MongoDB and synchronized in real-time using Pusher.
 When a user sends a message, it's stored in the database and instantly broadcasted to all connected clients using Pusher.
+</br>
+</br>
 User Interface:
 
 The frontend is built using React and styled with Tailwind CSS.
 Users can view and send messages in real-time, and the UI updates dynamically based on new messages.
+</br>
+</br>
 Media Handling:
 
 Cloudinary is used to manage user avatars and chat-related images, providing a scalable and efficient solution for storing and serving media assets.
